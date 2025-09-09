@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>
+      Охрана труда — консультации, обучение и безопасность на рабочем месте
+    </title>
+    <meta
+      name="description"
+      content="Охрана труда: обучение, инструкции, оценка рисков и услуги по безопасности для предприятий. Статьи, консультации и курсы по охране труда."
+    />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Охрана труда — консультации и обучение"
+    />
+    <meta
+      property="og:description"
+      content="Услуги по охране труда: обучение сотрудников, аудит безопасности, разработка инструкций и оценка рисков."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- JSON-LD (структурированные данные для поисковых систем) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ОхранаТрудПример",
+        "url": "https://example.com",
+        "logo": "https://example.com/logo.png",
+        "sameAs": []
+      }
+    </script>
+
+    <style>
+      :root {
+        --bg: #f6f7fb;
+        --card: #ffffff;
+        --accent: #0b63d6;
+        --muted: #6b7280;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        margin: 0;
+        background: var(--bg);
+        color: #111;
+      }
+      header {
+        background: linear-gradient(90deg, #ffffff 0%, #eef4ff 100%);
+        padding: 28px 16px;
+        border-bottom: 1px solid #e6eefb;
+      }
+      .container {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .brand {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }
+      .brand img {
+        width: 56px;
+        height: 56px;
+        border-radius: 8px;
+      }
+      nav {
+        margin-left: auto;
+      }
+      nav a {
+        margin-left: 14px;
+        color: var(--accent);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 12px 0;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 320px;
+        gap: 22px;
+      }
+      .card {
+        background: var(--card);
+        padding: 18px;
+        border-radius: 10px;
+        box-shadow: 0 6px 14px rgba(12, 30, 80, 0.06);
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .services {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .service {
+        flex: 1 1 140px;
+        background: #fbfdff;
+        padding: 12px;
+        border-radius: 8px;
+      }
+      footer {
+        margin-top: 30px;
+        padding: 22px 0;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      form label {
+        display: block;
+        margin-top: 8px;
+        font-weight: 600;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 6px;
+        border-radius: 8px;
+        border: 1px solid #e6eefb;
+      }
+      button {
+        margin-top: 10px;
+        background: var(--accent);
+        color: white;
+        padding: 10px 14px;
+        border-radius: 8px;
+        border: 0;
+      }
+      @media (max-width: 880px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        nav {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container" style="display: flex; align-items: center">
+        <div class="brand">
+          <img src="/logo.png" alt="Логотип" />
+          <div>
+            <div style="font-weight: 800">ОхранаТрудПример</div>
+            <div class="meta">Консультации • Обучение • Аудит</div>
+          </div>
+        </div>
+        <nav>
+          <a href="#services">Услуги</a>
+          <a href="#articles">Статьи</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container" style="padding-top: 18px">
+      <div class="grid">
+        <section class="card">
+          <h1>Охрана труда — безопасность вашего коллектива</h1>
+          <p class="meta">
+            Практические инструкции, курсы по охране труда и аудит для
+            предприятий любого размера.
+          </p>
+
+          <h2 id="services" style="margin-top: 18px">Наши услуги</h2>
+          <div class="services">
+            <div class="service">
+              <strong>Обучение персонала</strong>
+              <div class="meta">Очные и онлайн-курсы, аттестация.</div>
+            </div>
+            <div class="service">
+              <strong>Разработка инструкций</strong>
+              <div class="meta">Индивидуальные инструкции по видам работ.</div>
+            </div>
+            <div class="service">
+              <strong>Оценка рисков</strong>
+              <div class="meta">Аудит рабочих мест и предложение мер.</div>
+            </div>
+          </div>
+
+          <h2 id="articles" style="margin-top: 18px">Полезные статьи</h2>
+          <article class="meta" style="margin-top: 8px">
+            <h3>5 главных правил по охране труда на производстве</h3>
+            <p>
+              Короткая аннотация: рассказываем про индивидуальные средства
+              защиты, инструктажи и порядок действий при ЧП.
+            </p>
+            <a href="#" style="color: var(--accent); font-weight: 600"
+              >Читать статью →</a
+            >
+          </article>
+        </section>
+
+        <aside>
+          <div class="card">
+            <h3>Записаться на курс</h3>
+            <form
+              id="contact"
+              action="https://formspree.io/f/your-id"
+              method="POST"
+            >
+              <label>Имя</label>
+              <input type="text" name="name" required />
+              <label>E-mail</label>
+              <input type="email" name="email" required />
+              <label>Сообщение</label>
+              <textarea name="message" rows="4" required></textarea>
+              <button type="submit">Отправить</button>
+            </form>
+
+            <hr style="margin: 14px 0" />
+            <div class="meta">Адрес: г. Ташкент (пример)</div>
+            <div class="meta">Телефон: +998 90 000 00 00</div>
+          </div>
+
+          <div class="card" style="margin-top: 12px">
+            <h4>Быстрые советы</h4>
+            <ul class="meta">
+              <li>Используй понятные заголовки: H1, H2.</li>
+              <li>Добавь страницу "Контакты" и карту.</li>
+              <li>Оптимизируй скорость загрузки.</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <footer>
+        <div class="card">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            "
+          >
+            <div>© 2025 ОхранаТрудПример</div>
+            <div class="meta">
+              Создано для примера. Готов помочь с публикацией.
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,157 @@
+:root {
+  --bg: #000000;
+  --card: #ffffff;
+  --accent: #0b63d6;
+  --muted: #6b7280;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  margin: 0;
+ background: linear-gradient(90deg, #111111 0%, #111111 100%);
+  color: #ffffff;
+}
+header {
+  background: linear-gradient(90deg, #111111 0%, #111111 100%);
+  color: white;
+}
+.container {
+    background: linear-gradient(90deg, #111111 0%, #111111 100%);
+  max-width: 980px;
+  margin: 0 auto;
+}
+.intro {
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.51) 0%,
+      rgba(0, 0, 0, 0.49) 38%,
+      rgba(0, 0, 0, 0.52) 100%
+    ),
+    url("./1.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 100px 0;
+}
+.intro .box {
+  width: 400px;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.brand img {
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+}
+nav {
+  margin-left: auto;
+}
+nav a {
+  margin-left: 14px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+h1 {
+  font-size: 28px;
+  margin: 12px 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 22px;
+  color: white;
+}
+.card {
+  background: var(--card);
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(12, 30, 80, 0.06);
+}
+.card1 {
+  background-image: linear-gradient(
+      90deg,
+      rgba(31, 0, 48, 0.56) 0%,
+      rgba(31, 0, 48, 0.49) 38%,
+      rgba(31, 0, 48, 0.52) 100%
+    ),
+    url("./2.jpg");
+  background-size: cover;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(12, 30, 80, 0.06);
+}
+.meta {
+  color: var(--muted);
+  font-size: 13px;
+}
+.services {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.card-body:nth-child(1) {
+  background-image:linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.51) 0%,
+      rgba(0, 0, 0, 0.49) 38%,
+      rgba(0, 0, 0, 0.52) 100%
+    ), url('./3.jpg');
+  background-size: cover;
+  padding: 12px;
+  border-radius: 8px;
+}
+.card-body p{
+    opacity: 0;
+}
+.card-body p:hover{
+    opacity: 1;
+    color: azure;
+}
+footer {
+  margin-top: 30px;
+  padding: 22px 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+form label {
+  display: block;
+  margin-top: 8px;
+  font-weight: 600;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #e6eefb;
+}
+button {
+  margin-top: 10px;
+  background: var(--accent);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 0;
+}
+@media (max-width: 880px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    display: none;
+  }
+}

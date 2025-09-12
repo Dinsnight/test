@@ -59,7 +59,7 @@
     <header>
       <div class="container" style="display: flex; align-items: center">
         <div class="brand">
-          <img src="/logo.png" alt="Логотип" />
+          <img src="./1.png" alt="Логотип" />
           <div>
             <div style="font-weight: 800">ОхранаТрудПример</div>
             <div class="meta">Консультации • Обучение • Аудит</div>
@@ -86,42 +86,44 @@
             Практические инструкции, курсы по охране труда и аудит для
             предприятий любого размера.
           </p>
-
           <h2 id="services" style="margin-top: 18px">Наши услуги</h2>
-          <div class="services">
-            <div style="width: 18rem">
-              <div class="card-body">
-                <h5 class="card-title">Сертификат</h5>
-                <p class="card-text">
-                  72 соатли сертификат мехнат мухофазаси хавфсизлик техникаси
-                  буйича кимга керак
-                </p>
-              </div>
-            </div>
-            <div style="width: 18rem">
-              <div class="card-body">
-                <h5 class="card-title">Сертификат</h5>
-                <p class="card-text">
-                  72 соатли сертификат мехнат мухофазаси хавфсизлик техникаси
-                  буйича кимга керак
-                </p>
-              </div>
-            </div>
-            <div style="width: 18rem">
-              <div class="card-body">
-                <h5 class="card-title">Сертификат</h5>
-                <p class="card-text">
-                  72 соатли сертификат мехнат мухофазаси хавфсизлик техникаси
-                  буйича кимга керак
-                </p>
-              </div>
-            </div>
-          </div>
 
+          <div class="mb-3">
+            <button class="btn btn-success filter-btn" data-filter="all">
+              Сертификаты
+            </button>
+            <button class="btn btn-warning filter-btn" data-filter="instruk">
+              Инструктаж
+            </button>
+            <button class="btn btn-danger filter-btn" data-filter="elek">
+              Электробезопасность
+            </button>
+            <button class="btn btn-secondary filter-btn" data-filter="pajar">
+              Енгин хавфсизлиги
+            </button>
+            <button class="btn btn-info filter-btn" data-filter="med">
+              Биринчи ёрдам
+            </button>
+            <button
+              class="btn btn-dark text-light filter-btn"
+              data-filter="yuk"
+            >
+              Юклагич
+            </button>
+            <button
+              class="btn btn-dark text-light filter-btn"
+              data-filter="ximoya"
+            >
+              Шахсий химоя воситалари
+            </button>
+          </div>
           <h2 id="articles" style="margin-top: 18px">Полезные статьи</h2>
           <article class="meta" style="margin-top: 8px">
             <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item rounded-pill">
+              <div
+                class="accordion-item rounded-pill"
+                data-category="sertifikat"
+              >
                 <h2 class="accordion-header" id="flush-headingOne">
                   <button
                     class="accordion-button collapsed rounded-pill"
@@ -163,7 +165,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item rounded-pill">
+              <div class="accordion-item rounded-pill" data-category="instruk">
                 <h2 class="accordion-header" id="flush-headingTwo">
                   <button
                     class="accordion-button collapsed rounded-pill"
@@ -216,7 +218,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item rounded-pill">
+              <div class="accordion-item rounded-pill" data-category="instruk">
                 <h2 class="accordion-header" id="flush-headingThree">
                   <button
                     class="accordion-button collapsed rounded-pill"
@@ -263,7 +265,7 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item rounded-pill">
+              <div class="accordion-item rounded-pill" data-category="instruk">
                 <h2 class="accordion-header" id="flush-headingThree">
                   <button
                     class="accordion-button collapsed rounded-pill"
@@ -338,6 +340,211 @@
                   </div>
                 </div>
               </div>
+              <div class="accordion-item rounded-pill" data-category="elek">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button
+                    class="accordion-button collapsed rounded-pill"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    Электрохавфсизлик
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body px-5 text-dark">
+                    Elektr xavfsizligi** **Elektr xavfsizligi** — bu odamlarni
+                    elektr toki, elektr yoylari, elektromagnit maydon va statik
+                    elektrning xavfli ta’siridan himoya qilishga qaratilgan
+                    tashkiliy va texnik choralar tizimidir. Asosiy
+                    tushunchalar:** 1. **Elektr toki** — bu zaryadlangan
+                    zarrachalarning (odatda — elektronlar) o'tkazgich orqali
+                    harakati. 2. **Elektr toki bilan zararlanish** kuyish,
+                    tirishish, yurak va nafas faoliyatining to‘xtashiga, hattoki
+                    o‘limga olib kelishi mumkin. 3. **Kuchlanish (volt)** — tok
+                    oqimining sababidir. 50 V dan yuqori (o‘zgaruvchan tok) yoki
+                    120 V dan yuqori (doimiy tok) kuchlanish xavfli hisoblanadi.
+                    4. **Yerga ulash (zazemleniye)** — qisqa tutashuv yoki
+                    nosozlik paytida tokni yerga yo‘naltirish uchun uskuna yerga
+                    ulanadi. 5. **UZO (tokdan himoya qiluvchi qurilma)** — tok
+                    sizib chiqishi aniqlanganda avtomatik ravishda elektr
+                    ta'minotini o'chiradi. --- Elektr xavfsizligini ta'minlash
+                    choralari:** 1. Tashkiliy choralari:** * Elektr xo‘jaligi
+                    uchun mas’ul shaxslarni tayinlash. * Xodimlarga yo‘riqnoma
+                    va o‘quv mashg‘ulotlarini o‘tkazish. * Elektr qurilmalar
+                    bilan ishlashga faqat o‘qitilgan xodimlarga ruxsat berish. *
+                    Kuchlanish ostida yoki yaqin joyda ishlash uchun
+                    ruxsatnomalar rasmiylashtirish. 2. Texnik choralari:** *
+                    Himoya yerga ulash va nolga ulash tizimlaridan foydalanish.
+                    * UZO va differensial avtomatlardan foydalanish. *
+                    Dielektrik qo‘lqoplar, rezina gilamchalar, izolyatsiyalangan
+                    dastakli asboblar bilan ishlash. * Elektr jihozlarini
+                    muntazam texnik xizmat ko‘rsatish va nazoratdan o‘tkazish.
+                    --- Elektr xavfsizligi bo‘yicha malaka guruhlari:** 1.
+                    **I-guruh** — eng oddiy daraja, faqat asosiy
+                    xavf-xatarlardan xabardorlik talab etiladi. 2. **II-guruh**
+                    — kuchlanish ostidagi qismlarga bevosita tegmasdan ishlash
+                    uchun. 3. **III-guruh** — 1000 V gacha bo‘lgan uskunalar
+                    bilan ishlash, sxemalar va himoya choralarini bilish talab
+                    etiladi. 4. **IV-guruh** — ishlarni tashkil etuvchi va
+                    nazorat qiluvchi mutaxassislar uchun. 5. **V-guruh** — eng
+                    yuqori daraja, 1000 V dan yuqori kuchlanishli qurilmalar
+                    bilan ishlash uchun. Elektr toki urgan odamga birinchi
+                    yordam:** 1. Tok manbasini darhol o‘chiring (tugma, vilkani
+                    uzing va h.k.). 2. Bu mumkin bo‘lmasa — ta’sirlangan odamni
+                    izolyatsiyalangan buyumlar (quruq tayoq, rezina qo‘lqop)
+                    bilan ajrating. 3. Yurak urishi va nafas olishni tekshiring.
+                    4. Nafas va/yoki yurak urishi bo‘lmasa — sun’iy nafas va
+                    yurakni massaj qilish orqali reanimatsiya o‘tkazing. 5. Tez
+                    yordam chaqiring.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item rounded-pill" data-category="elek">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button
+                    class="accordion-button collapsed rounded-pill"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix"
+                  >
+                    Электробехатарликда ШХВ нима?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingSix"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body px-5 text-dark">
+                    ШХВ (шахсий ҳимоя воситалари)** — бу электр токи таъсиридан
+                    ходимларни ҳимоя қилиш учун мўлжалланган махсус воситалар
+                    бўлиб, улар электр ускуналари ва кучланиши юқори бўлган
+                    объектларда ишлаш пайтида қўлланилади. Электробехатарликда
+                    қўлланадиган асосий СИЗ турлари
+                    <table>
+                      <tr>
+                        <th>Категория</th>
+                        <th>Вазифаси</th>
+                        <th>Мисоллар</th>
+                      </tr>
+                      <tr>
+                        <td>Изоляцияловчи СИЗ</td>
+                        <td>
+                          Ток ўтказувчи қисмларга тўғридан-тўғри тегишдан ҳимоя
+                        </td>
+                        <td>
+                          - Диэлектрик қўлқоплар<br />- Диэлектрик галош ва
+                          ботлар- Изоляцияловчи штангалар ва қисқичлар
+                          Изоляцияловчи қопламалар ва қалпоқлар
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Бош, кўз ва юзни ҳимояловчи</td>
+                        <td>| Учқун, ёрилиш, парчалардан ҳимоя</td>
+                        <td>
+                          Диэлектрик каскалар - Юз ниқоблари ва ҳимоя
+                          кўзойнаклари
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Баландликда ишлаш воситалари</td>
+                        <td>
+                          Электр узатиш линиялари яқинида баландликда ишлаш
+                          хавфини камайтириш
+                        </td>
+                        <td>Ҳимоя камарлари Арқанлар ва карабиналар</td>
+                      </tr>
+                      <tr>
+                        <td>Назорат ва ўлчов асбоблари</td>
+                        <td>
+                          Кучланиш йўқлигини текшириш, ерга уланганлигини
+                          назорат қилиш
+                        </td>
+                        <td>
+                          Кучланиш кўрсатгичлари<br />- Мегаомметрлар<br />- Ток
+                          ўлчов қисқичлари
+                        </td>
+                      </tr>
+                    </table>
+                    : ШХВ (шахсий ҳимоя воситалари)** — бу электр токи
+                    таъсиридан ходимларни ҳимоя қилиш учун мўлжалланган махсус
+                    воситалар бўлиб, улар электр ускуналари ва кучланиши юқори
+                    бўлган объектларда ишлаш пайтида қўлланилади.
+                    Электробехатарликда қўлланадиган асосий СИЗ турлари: |
+                    Категория | Вазифаси Мисоллар Изоляцияловчи СИЗ | Ток
+                    ўтказувчи қисмларга тўғридан-тўғри тегишдан ҳимоя | -
+                    Диэлектрик қўлқоплар<br />- Диэлектрик галош ва ботлар-
+                    Изоляцияловчи штангалар ва қисқичлар Изоляцияловчи
+                    қопламалар ва қалпоқлар | Ҳимоя кийимлари Электр ёрилиши
+                    (дуга), учқунлар, ёниб кетишдан ҳимоя - Ёнмайдиган матодан
+                    тикилган костюмлар<br />- Ихтисослаштирилган халат ва
+                    плашлар<br />- Учқундан ҳимояловчи қўлқоплар Бош, кўз ва
+                    юзни ҳимояловчи воситалар | Учқун, ёрилиш, парчалардан ҳимоя
+                    - Диэлектрик каскалар - Юз ниқоблари ва ҳимоя кўзойнаклари
+                    Баландликда ишлаш воситалари Электр узатиш линиялари яқинида
+                    баландликда ишлаш хавфини камайтириш - Ҳимоя камарлари
+                    Арқанлар ва карабиналар Назорат ва ўлчов асбоблари Кучланиш
+                    йўқлигини текшириш, ерга уланганлигини назорат қилиш
+                    Кучланиш кўрсатгичлари<br />- Мегаомметрлар<br />- Ток ўлчов
+                    қисқичлари | Электробехатарликда СИЗ учун талаблар: 1.
+                    **Меъёр ва стандартларга мувофиқ бўлиши** (ГОСТ, ТР ТС, ПУЭ,
+                    ПТЭЭП). 2. **Даврий текширув ва синовлардан ўтказилиши**
+                    (масалан, диэлектрик қўлқоплар — ҳар 6 ойда). 3.
+                    **Ходимларни ўқитиш** — СИЗдан тўғри фойдаланишни билиши
+                    шарт. 4. **Тўғри сақлаш ва ташиш** — изоляция хусусиятлари
+                    бузилмаслиги учун. --- Қўллаш мисоллари: 1000 В гача бўлган
+                    электр ускуналарида ишлаш**: диэлектрик қўлқоплар, кучланиш
+                    кўрсатгичи, изоляцияланган дастали асбоблардан
+                    фойдаланилади. 10 кВ кучланишдаги электр узатиш линияларида
+                    ишлаш**: изоляцияловчи штанга, диэлектрик каска, электр
+                    ёрилишига (дугага) қарши махсус кийим, галош, қўлқоплар.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item rounded-pill" data-category="elek">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button
+                    class="accordion-button collapsed rounded-pill"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix"
+                  >
+                    электробехатарлик бўйича 1-группа
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingSix"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body px-5 text-dark">
+                   Электробехатарлик бўйича 1-группа нима?
+
+1-группа** — бу **энг бошланғич даража** бўлиб, электротехникага алоқаси бўлмаган ходимлар** учун мўлжалланган. Улар **электроускуналар яқинида бўлиши мумкин**, лекин **улар билан тўғридан-тўғри ишламайди**.
+
+Бу гуруҳ ходимнинг **шахсий хавфсизлигини таъминлаш** учун керак бўлади.
+
+---
+
+ Қандай касб эгаларига 1-группа берилади? Бу гуруҳ қуйидагидек касблар учун керак бўлиши мумкин
+
+                  </div>
+                </div>
+              </div>
             </div>
           </article>
         </section>
@@ -346,7 +553,7 @@
           <div class="card">
             <hr style="margin: 14px 0" />
             <div class="meta">Адрес: г. Ташкент</div>
-            <div class="meta">Телефон: +998 90 000 00 00</div>
+            <div class="meta">Телефон: +998 97 055-53-33 +998 97 434-88-70</div>
           </div>
         </aside>
       </div>
@@ -361,8 +568,7 @@
             "
           >
             <div>© 2025 ОхранаТрудПример</div>
-            <div class="meta">
-            </div>
+            <div class="meta"></div>
           </div>
         </div>
       </footer>
@@ -372,5 +578,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>

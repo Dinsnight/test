@@ -155,3 +155,6 @@ button {
     display: none;
   }
 }
+.accordion-body img{
+  width: 100%;
+}

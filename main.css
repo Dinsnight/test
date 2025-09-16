@@ -113,13 +113,7 @@ h1 {
   padding: 12px;
   border-radius: 8px;
 }
-.card-body p{
-    opacity: 0;
-}
-.card-body p:hover{
-    opacity: 1;
-    color: azure;
-}
+
 footer {
   margin-top: 30px;
   padding: 22px 0;
@@ -168,10 +162,13 @@ button {
   color: white; 
   opacity: 0;
   font-weight: 900;
-  font-size: 12px;
+  font-size: 30px;
   text-shadow:  52px 52px 55px gray;
 }
 .carousel-item div:hover{
   opacity: 1;
   background: linear-gradient(90deg,rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 38%, rgba(0, 0, 0, 0.4) 100%);
+}
+.accordion-body img{
+  width: 100%;
 }
